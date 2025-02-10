@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95vw;
+    height: 20px;
+    padding: 30px;
+    background-color: #F6F6F5;
+    border-radius: 80px;
+    margin-left: 40px;
+    margin-top: 30px;  
+}
+.logo img{
+   height: 50px;
+   width: 50px;
+   mix-blend-mode: multiply;
+}
+.navElem a{
+  text-decoration: none;
+  color: #111;
+  margin: 35px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.navElem a:hover{
+    border-bottom: 2px solid #391A86;
+
+}
+.phone-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 14px;
+    border: 1px solid #391A86;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    
+  }
+  
+.number {
+    display: none; 
+    margin-left: 10px;
+    color: #391A86;
+    
+  }
+  
+  .phone-button:hover {
+    background-color: #391A86;
+    transform: scale(1.05);
+  }
+  .icon {
+    margin-right: 10px;
+}
+  
+  .phone-button:hover .number {
+    display: inline; 
+    color: #fff;
+  }
+
+.navbtns button{
+    width: 120px;
+    padding: 9px;
+    border-radius: 15px;
+    background-color: #391A86;
+    color: aliceblue;
+    border: 1px solid lightblue;
+    border: none;
+    cursor: pointer;
+}
+#main{
+    margin-top: 250px;
+    text-align: center;
+}
+
+.heading h1{
+    font-size: 38px;
+    color: #fff;
+}
+.heading p{
+    margin-top: 10px;
+    color: #fff;
+}
+.blue {
+    margin: 20px;
+  padding: 19px;
+  border-radius: 40px;
+  background-color: #391A86;
+  color: #fff;
+  border: none;
+  margin-top: 50px;
+  cursor: pointer;
+  
+}
+.white {
+    margin: 20px;
+  padding: 19px;
+  border-radius: 40px;
+  background-color: #F6F6F5;
+  color: #391A86;
+  border: none;
+  cursor: pointer;
+}
+    
+.videoplay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.videoplay video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
