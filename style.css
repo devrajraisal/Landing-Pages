@@ -6,6 +6,7 @@
 html,body{
     width: 100%;
     height: 100%;
+<<<<<<< HEAD
 
 }
 
@@ -133,3 +134,102 @@ nav{
     object-fit: cover;
 }
 
+=======
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#left{
+    position: relative;
+    width: 45%;
+    height: 100%;
+}
+#left #text-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#text-center h1{
+    font-size: 90px;
+    font-weight: 900;
+}
+#text-center a{
+    text-decoration: none;
+    color:#111;
+    border-bottom: 1px solid #111;
+    padding-bottom: 5px;
+    opacity: .6;
+}
+#text-center p{
+    opacity: .6;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#nav{
+    width: 100%;
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+#lnavr{
+    display: flex;
+    align-items: center;
+}
+#lnavr a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #111;
+    font-weight: 600;
+    font-size: 15px;
+}
+#lnavr i{
+    color: blue;
+}
+#right{
+    width: 55%;
+    height: 100%;
+}
+#rtop{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+#rtopleft{
+    width: 50%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1557800636-894a64c1696f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b3JhbmdlfGVufDB8fDB8fHww");
+    background-size: cover;
+    background-position: center;
+}
+#rtopright{
+    width: 50%;
+    height: 100%;
+    background-image: url("https://plus.unsplash.com/premium_photo-1675667408018-3b64dbc55db1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8b3JhbmdlfGVufDB8fDB8fHww");
+    background-size: cover;
+    background-position: center;
+}
+
+#rbottom{
+    width: 100%;
+    height: 50%;
+    background-image: url("https://images.unsplash.com/photo-1514936477380-5ea603b9a1ca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b3Jhbmdlc3xlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width:500px){
+    #main{
+        width: 100%;
+        flex-direction: column;
+    }
+    #main #left{
+        width: 100%;
+    }
+    #main #right{
+        width: 100%;
+    }
+}
+>>>>>>> 1191b4a (Initial commit)
